@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+#main {
+  background-color: #edf3fa;
+  width: 80vw;
+  margin: 20px auto;
+  font-size: 1.3em;
+}
+
+#main-header {
+  text-align: center;
+  margin: 10px 0;
+}
+
+#title {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  padding: 20px 15px;
+}
+
+#img-caption {
+  text-align: center;
+  margin: 20px 5%;
+}
+
+#tribute-info ul {
+  display: inline-block;
+  margin-left: 25vw;
+  margin-right: 5%;
+}
+
+#tribute-info li {
+  line-height: 1.6em;
+}
+
+#tribute-info strong {
+  display: inline-block;
+  width: 150px;
+}
+
+#tribute-info p {
+  margin: 20px 5% 0px 5%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#tribute-link {
+  color: #000;
+  text-decoration: none;
+}
+
+#main #tribute-link:hover {
+  color: #4639f3;
+}
+#main #tribute-link:visited {
+  color: #ed25ab;
+}

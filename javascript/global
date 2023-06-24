@@ -1,0 +1,2 @@
+let str = "esto es una frase";
+console.log(str.charAt(0).toUpperCase().concat(str));
