@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Ingreso</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <div class="main">
+        <header class="header-main">
+            <h1 id="title">Titulo del formulario</h1>
+            <p id="descritption">Descipcion del formulario</p>
+        </header>
+        <form id="survey-form" action="" method="post">
+
+            <label for="name" id="name-label">Nombre
+                <input type="text" id="name" name="name" value="name" placeholder="Write your name" required />
+            </label>
+            <label for="mail" id="email-label">Email
+                <input type="email" id="email" name="mail" value="mail" placeholder="Write your email" required />
+            </label>
+            <label for="age" id="number-label">Edad
+                <input type="number" id="number" name="age" value="age" min="18" max="99"
+                    placeholder="Write your age" />
+            </label>
+
+            <select name="" id="dropdown">
+                <option value="">selecciona</option>
+                <option value="">selecciona</option>
+                <option value="">selecciona</option>
+                <option value="">selecciona</option>
+            </select>
+
+            <input type="radio" name="estado" value="valor" id="" />
+            <input type="radio" name="estado" value="valor" id="" />
+            <input type="radio" name="estado" value="valor" id="" />
+
+
+            <input type="checkbox" name="" value="Valores" id="" />
+            <input type="checkbox" name="" value="Valores" id="" />
+            <input type="checkbox" name="" value="Valores" id="" />
+            <input type="checkbox" name="" value="Valores" id="" />
+            <input type="checkbox" name="" value="Valores" id="" />
+
+            <label for="">Escribe un comentario</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Enviar" id="submit" />
+        </form>
+    </div>
+</body>
+
+</html>
