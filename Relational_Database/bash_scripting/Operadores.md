@@ -48,5 +48,10 @@ Para llamar a una variable se usara el nombre dado anteponiendo en simbolo de do
     $numero
 
 
+## Leer entradas de usuario
+Para leer entradas por teclado se utiliza la expresion "read" en la cual se alamacena el valor ingresado  
+por el teclado o entrada exterior
 
+    read <valor>
+    echo $valor
     
