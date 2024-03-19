@@ -7,6 +7,13 @@
 -le -> menor o igual que
 -ge -> mayor o igual que
 
+### Con dobles parentesis
+== -> Igual
+< -> Menor que 
+> -> Mayor que 
+<= ->  Menor o igual 
+>= -> Mayor o igual 
+
 ## Operadores de Fichero
 
 Devolvera True
@@ -21,3 +28,11 @@ Devolvera True
 -r fichero -> Si el fichero es de lectura para el usuario
 -w fichero -> Si el fichero es de escritura para el usuario
 -x fichero -> Si el fichero es ejecutable para el usuario
+
+## String
+-z <fichero> -> True si la cadena esta vacia
+-n <fichero> -> True si la cadena no esta vacia
+-s <fichero> ->
+
+
+
