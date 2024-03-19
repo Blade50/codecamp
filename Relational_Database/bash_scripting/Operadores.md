@@ -34,5 +34,19 @@ Devolvera True
 -n <fichero> -> True si la cadena no esta vacia
 -s <fichero> ->
 
+## Crear variables
+
+Para la crear una variable se identificara con un nombre que no podra empezar por numeros y sin espacios  
+en blanco se le asignara un valor.  
+
+    <nombre>=<valor>
+    numero=2 
+
+Para llamar a una variable se usara el nombre dado anteponiendo en simbolo de dolas ($)  
+
+    $<nombre>
+    $numero
 
 
+
+    
